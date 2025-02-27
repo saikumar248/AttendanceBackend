@@ -20,82 +20,92 @@ public class UserDto {
 
     private byte[] profilePic;
 
-    // Getters and Setters
-    public Long getId() {
-        return id;
-    }
+    private String departments;
+    private String checkInStatus;
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    // Getter and Setter
+//    public String getDepartments() {
+//        return departments;
+//    }
+//
+//    public void setDepartments(String departments) {
+//        this.departments = departments;
+//    }
+//    public Long getId() {
+//        return id;
+//    }
+//
+//    public void setId(Long id) {
+//        this.id = id;
+//    }
+//
+//    public String getDesignation() {
+//        return designation;
+//    }
+//
+//    public void setDesignation(String designation) {
+//        this.designation = designation;
+//    }
+//
+//    public String getFullName() {
+//        return fullName;
+//    }
+//
+//    public void setFullName(String fullName) {
+//        this.fullName = fullName;
+//    }
+//
+//    public String getMobile() {
+//        return mobile;
+//    }
+//
+//    public void setMobile(String mobile) {
+//        this.mobile = mobile;
+//    }
+//
+//    public String getEmail() {
+//        return email;
+//    }
+//
+//    public void setEmail(String email) {
+//        this.email = email;
+//    }
+//
+//    public String getImageName() {
+//        return imageName;
+//    }
+//
+//    public void setImageName(String imageName) {
+//        this.imageName = imageName;
+//    }
+//
+//    public String getImageType() {
+//        return imageType;
+//    }
+//
+//    public void setImageType(String imageType) {
+//        this.imageType = imageType;
+//    }
+//
+//    public byte[] getProfilePic() {
+//        return profilePic;
+//    }
+//
+//    public void setProfilePic(byte[] profilePic) {
+//        this.profilePic = profilePic;
+//    }
 
-    public String getDesignation() {
-        return designation;
-    }
-
-    public void setDesignation(String designation) {
-        this.designation = designation;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getImageName() {
-        return imageName;
-    }
-
-    public void setImageName(String imageName) {
-        this.imageName = imageName;
-    }
-
-    public String getImageType() {
-        return imageType;
-    }
-
-    public void setImageType(String imageType) {
-        this.imageType = imageType;
-    }
-
-    public byte[] getProfilePic() {
-        return profilePic;
-    }
-
-    public void setProfilePic(byte[] profilePic) {
-        this.profilePic = profilePic;
-    }
-
-    @Override
-    public String toString() {
-        return "UserDto{" +
-                "id=" + id +
-                ", designation='" + designation + '\'' +
-                ", fullName='" + fullName + '\'' +
-                ", mobile='" + mobile + '\'' +
-                ", email='" + email + '\'' +
-                ", imageName='" + imageName + '\'' +
-                ", imageType='" + imageType + '\'' +
-                ", profilePic size=" + (profilePic != null ? profilePic.length : 0) +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "UserDto{" +
+//                "id=" + id +
+//                ", designation='" + designation + '\'' +
+//                ", fullName='" + fullName + '\'' +
+//                ", mobile='" + mobile + '\'' +
+//                ", email='" + email + '\'' +
+//                ", imageName='" + imageName + '\'' +
+//                ", imageType='" + imageType + '\'' +
+//                ", profilePic size=" + (profilePic != null ? profilePic.length : 0) +
+//                '}';
+//    }
 }
